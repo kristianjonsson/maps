@@ -6,4 +6,3 @@
             disableDefaultUI: true
         });
       }
-
