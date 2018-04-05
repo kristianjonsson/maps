@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="manifest" href="assets/scripts/manifest.json">
+            <!-- Add to home screen for Safari on iOS -->
+            <meta name="apple-mobile-web-app-capable" content="yes">
+            <meta name="apple-mobile-web-app-status-bar-style" content="black">
+            <meta name="apple-mobile-web-app-title" content="placefinder">
+            <link rel="apple-touch-icon" href="assets/images/icons/icon-152x152.png">
+
+            <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
+            <meta name="msapplication-TileColor" content="#2F3BA2">
+
+            <title>Placefinder.dk</title>
+            <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+            <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+            <link rel="stylesheet" href="assets/css/main.css">
+        </head>
+
+        <body>
+            <nav>
+                <div class="container">
+                    <div id="logo">
+                        <i class="fas custom-icon fa-map-marker-alt"></i> placefinder.dk
+                    </div>
+                </div>
+            </nav>
+            <section id="map-container">
+                <div id="map"></div>
+                <div class="btn-search">
+                    </div>
+            </section>
+            <div id="splash">
+                <div class="icon">
+                    <i class="fas custom-icon fa-map-marker-alt"></i>
+                </div>
+            </div>
+            <script type="text/javascript" src="assets/scripts/script.js"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASrmLMaIYjJ-A9Hq24_m5nXJwHS6k4_B0&callback=initMap"
+            async defer></script>
+        </body>
+
+</html>

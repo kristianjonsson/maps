@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: #312c32;
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+    color: #fff;
+    line-height: 60px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+#map{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.btn-search{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+#splash{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    display: none;
+    background: linear-gradient(to right, rgb(44, 62, 80), rgb(52, 152, 219));
+}
+#splash .icon{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    top: 50%;   
+    margin-top: -50px;
+}
+#splash .icon .custom-icon{
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    transform: rotate(-30deg);
+}
